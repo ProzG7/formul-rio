@@ -1,0 +1,19 @@
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+body{
+    background-color: black;
+}
+
+.gd{
+    text-align: center;
+    color: aliceblue;
+}
+
+#botao{
+    position: relative;
+    top: 20px;
+    left: 650px;
+}
