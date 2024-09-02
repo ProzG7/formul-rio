@@ -1,0 +1,32 @@
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+body{
+    background-color: black;
+}
+
+.gd{
+    text-align: center;
+    color: aliceblue;
+}
+
+#botao{
+    
+
+    margin: 90px;
+    cursor: pointer;
+}
+
+*{
+    box-sizing:border-box;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    border: solid 5px #ffffffff;
+    margin: 2% auto;
+    padding: 70px 140px 50px 130px;
+
+}
