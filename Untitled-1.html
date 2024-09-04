@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORMULÁRIO</title>
     <link rel="stylesheet" type="text/css" href="form.css">
+    <script src="script.js"></script>
 </head>
 <body>
 <h2>dados pessoais</h2>
 
-<form class="box">
+<form class="box" id="meuFormulario">
 <div class=" gd">
-Nome completo: <input type="text" id="nome" placeholder="digite seu nome"/> <br/></br>
-Data de nascimento: <input type="date" placeholder="DD/MM/AAAA"/>  <br/></br>
-Insira o seu CPF: <input type="number" placeholder="000.000.000.00"/>  <br/></br>
-Insira seu telefone: <input type="tel" placeholder="(DDD) 00000-0000"/>  <br/></br>
+Nome completo: <input type="text" id="nome" placeholder="digite seu nome" required/> <br/></br>
+Data de nascimento: <input type="date" id="data" placeholder="DD/MM/AAAA" required/>  <br/></br>
+Insira o seu CPF: <input type="number" id="cpf" placeholder="000.000.000.00" required/>  <br/></br>
+Insira seu telefone: <input type="tel" id="telefone" placeholder="(DDD) 00000-0000" required/>  <br/></br>
 </div>
 <input id="botao" type="submit" value="ENVIAR">
 
