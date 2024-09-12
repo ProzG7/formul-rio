@@ -13,6 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const origem = document.getElementById('origem').value;
         const destino = document.getElementById('destino').value;
 
-        alert(` Olá, ${nome}! Sua viagem foi marcada para o dia ${data1} às ${hora1}, partindo de ${origem} para ${destino} \n Agradecemos sua preferência! Bon voyage!.`);
-    })}
-)
+        const mensagem = `
+            <h3>Reserva feita!</h3>
+            <p><strong>Nome:</strong> ${nome}</p>
+            <p><strong>Data da viagem:</strong> ${data1}</p>
+            <p><strong>Horário:</strong> ${hora1}</p>
+            <p><strong>Origem:</strong> ${origem}</p>
+            <p><strong>Destino:</strong> ${destino}</p>
+        `;
+    document.getElementById('mensagem').innerHTML = mensagem;
+     })
+});

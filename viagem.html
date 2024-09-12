@@ -10,7 +10,7 @@
 <body>
 <h2>dados pessoais</h2>
 
-<form class="box" id="meuFormulario">
+<form id="meuFormulario">
 <div class=" gd">
 Nome completo: <input type="text" id="nome" placeholder="digite seu nome" required/> <br/></br>
 Data da ida: <input type="date" id="data1" placeholder="DD/MM/AAAA" required/>  <br/></br>
@@ -20,7 +20,7 @@ Horário de embarque volta: <input type="time" id="hora2" required>
 Insira o seu CPF: <input type="number" id="cpf" placeholder="000.000.000.00" required/>  <br/></br>
 Insira seu telefone para contato: <input type="tel" id="telefone" placeholder="(DDD) 00000-0000" required/>  <br/></br>
 
-<select id="origem">
+<select id="origem" name="origem" required>
     <option value="">Selecione a cidade de origem</option>
     <option value="Belo Horizonte - MG"> Belo Horizonte - MG </option>
     <option value="Fortaleza - CE"> Fortaleza - CE </option>
@@ -29,7 +29,7 @@ Insira seu telefone para contato: <input type="tel" id="telefone" placeholder="(
     <option value="Salvador - BA"> Salvador - BA </option>
 </select>
 
-<select id="destino">
+<select id="destino" name="destino" required>
     <option value="">Selecione a cidade de destino</option>
     <option value="Belo Horizonte - MG"> Belo Horizonte - MG </option>
     <option value="Fortaleza - CE"> Fortaleza - CE </option>
@@ -40,29 +40,13 @@ Insira seu telefone para contato: <input type="tel" id="telefone" placeholder="(
 
 </div>
 <input id="botao" type="submit" value="ENVIAR">
-<div id="mensagem"></div>
-
-
 
 
 </div>
 
 
-
-
-
-
-
-
-
 </form>
-
-
-
-
-
-
-
+<div id="mensagem"></div>
 
 
 

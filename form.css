@@ -13,8 +13,11 @@ body{
 }
 
 #botao{
-    margin: 80px;
+    position: relative;
+    top: 30px;
+    left: 600px;
     cursor: pointer;
+    align-items: center;
 }
 
 *{
@@ -28,3 +31,9 @@ body{
     padding: 70px 140px 50px 130px;
 
 }
+#mensagem{
+    text-align: center;
+    color: aliceblue;
+}
+
+
