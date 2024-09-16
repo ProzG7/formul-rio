@@ -1,0 +1,29 @@
+#cookies-msg{
+    width: 80%;
+    position: fixed;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius:17px;
+    background-color: black;
+    color: white;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    font-size: Arial, Helvetica, sans-serif;
+}
+#cookies-msg.mostrar {
+     display: block;
+}
+
+#aceitocookies button {
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    padding: 8px 18px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 4px;
+}

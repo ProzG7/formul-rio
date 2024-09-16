@@ -4,7 +4,7 @@ h2{
 }
 
 body{
-    background-color: black;
+    background-color: rgb(161, 15, 15);
 }
 
 .gd{
@@ -34,6 +34,36 @@ body{
 #mensagem{
     text-align: center;
     color: aliceblue;
+}
+
+#cookies-msg{
+    width: 80%;
+    position: fixed;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius:10px;
+    background-color: blueviolet;
+    color: white;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    font-size: Arial, Helvetica, sans-serif;
+}
+#cookies-msg.mostrar {
+     display: block;
+}
+
+#aceitocoockies button {
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
 }
 
 
