@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     mostrarCookies();
 
     aceitocookies.addEventListener('click', function() { 
+        esconderCookies();
 
     });
 })
